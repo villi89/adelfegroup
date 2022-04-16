@@ -1,0 +1,68 @@
+body{
+	/* background-color:#01171b; */
+}
+
+
+
+g.province {
+	fill: none;
+	stroke-width: 1;
+	/* stroke-linecap: square;
+	stroke-linejoin: bevel;
+	stroke-miterlimit: 3;
+	stroke-opacity: 1; */
+	stroke: rgb(134, 25, 25);
+	/* fill-opacity: 1; */
+}
+
+g.comuni {
+	fill: #eee;
+	stroke-width: 0.4;
+	stroke-linecap: square;
+	stroke-linejoin: bevel;
+	stroke-miterlimit: 3;
+	stroke-opacity: 1;
+	stroke: rgba(89, 182, 46, 0.404);
+	fill-opacity: 1;
+}
+
+g.regioni {
+	fill: none;
+	stroke-width: 2;
+	stroke-linecap: square;
+	stroke-linejoin: bevel;
+	stroke-miterlimit: 3;
+	stroke-opacity: 1;
+	stroke: #000;
+	fill-opacity: 1;
+}
+
+svg path:hover{
+	fill: #006284;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+/* #p_CS path{
+	fill: black;
+}
+
+#p_CS path:hover{
+	fill: white;
+}
+
+#p_CZ path{
+	fill: red;
+}
+
+#p_CZ path:hover{
+	fill: white;
+}
+
+#p_RC path{
+	fill: green;
+}
+
+#p_RC path:hover{
+	fill: white;
+} */

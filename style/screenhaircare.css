@@ -1,0 +1,119 @@
+:root{
+    --black:#111111;
+    --gray: #9f9f9f;
+    --dark-gray:#666;
+    --white: #fff;
+}
+
+/* font family */
+
+body{
+    background: linear-gradient(rgba(159, 159, 159, 0.3),rgba(159, 159, 159, 0.3));
+}
+
+*{
+    font-family: 'Roboto Serif', serif;
+}
+
+.ff-nunito{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ff-open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-black{
+    color: var(--black);
+}
+
+.text-white{
+    color: var(--white);
+}
+
+.text-gray{
+    color: var(--gray);
+}
+
+.text-darkgray{
+    color: var(--dark-gray);
+}
+
+.bg-gray{
+    background-color:var(--gray);
+}
+
+.bg-white{
+    background-color:var(--white);
+}
+
+.bg-black{
+    background-color:var(--black);
+}
+
+.bg-darkgray{
+    background-color: var(--dark-gray);
+}
+
+/* Navbar */
+
+.navbar-custom{
+    background-color: transparent;
+    transition: 0.15s linear;
+}
+
+.navbar-height{
+    height: 50px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    color: var(--white);
+}
+
+.nav-link:hover{
+    color: var(--white) !important;
+    border-bottom-style: solid;
+    border-color: var(--white);
+    
+}
+.navlink-custom{
+    display: flex;
+    justify-content:right ;
+}
+
+.active-custom{
+    color: var(--white) !important;
+    border-bottom-style: solid;
+    border-color: var(--white);
+}
+
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)), url(../img-index/slide-prodotti.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.custom-box{
+    min-height: 60vh;
+
+}
+
+.bg-custom{
+    min-height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(255, 255,255, 0.9)), url(../img-index/slide-prodotti.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 20px 50px 20px;
+}
